@@ -1,0 +1,21 @@
+color jellybeans
+set guifont=Menlo:h14.00
+
+
+" Customize Jellybeans
+set fillchars=stl:\ ,stlnc:\ ,vert:\|,fold:-,diff:-
+hi StatusLine guibg=#C4C0C0 guifg=#000000
+hi VertSplit guibg=#949292
+hi StatusLineNC guibg=#949292 guifg=#333333
+
+
+" Softwrap text
+set wrap
+
+" Remove MacVim toolbar
+if has("gui_running")
+  set guioptions-=T
+endif
+
+" Force TList to show up where you want
+let Tlist_Use_Right_Window = 1
