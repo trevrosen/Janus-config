@@ -1,0 +1,3 @@
+[submodule "vim-autoclose"]
+	path = vim-autoclose
+	url = git://github.com/Townk/vim-autoclose.git
