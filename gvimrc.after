@@ -8,6 +8,16 @@ hi StatusLine guibg=#C4C0C0 guifg=#000000
 hi VertSplit guibg=#949292
 hi StatusLineNC guibg=#949292 guifg=#333333
 
+" ---- ConqueTerm ----
+" wrapper function
+function StartTerm()
+  execute 'ConqueTerm /bin/bash --login'
+  setlocal listchars=tab:\ \
+endfunction
+
+" key binding
+map <D-e> :call StartTerm()<CR>
+
 
 " Softwrap text
 set wrap

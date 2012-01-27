@@ -1,3 +1,6 @@
 [submodule "vim-autoclose"]
 	path = vim-autoclose
 	url = git://github.com/Townk/vim-autoclose.git
+[submodule "conque-term"]
+	path = conque-term
+	url = git://github.com/rosenfeld/conque-term.git
