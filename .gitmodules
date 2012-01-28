@@ -4,3 +4,6 @@
 [submodule "conque-term"]
 	path = conque-term
 	url = git://github.com/rosenfeld/conque-term.git
+[submodule "AutoClose"]
+	path = AutoClose
+	url = https://github.com/vim-scripts/AutoClose
