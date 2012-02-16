@@ -7,3 +7,6 @@
 [submodule "AutoClose"]
 	path = AutoClose
 	url = https://github.com/vim-scripts/AutoClose
+[submodule "Align"]
+	path = Align
+	url = https://github.com/vim-scripts/Align.git
