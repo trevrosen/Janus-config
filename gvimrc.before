@@ -1,0 +1,2 @@
+"Seems to fix performance issues
+call janus#disable_plugin('css-color')
