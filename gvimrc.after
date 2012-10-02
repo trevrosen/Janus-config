@@ -1,7 +1,18 @@
 color jellybeans
 set guifont=Menlo:h14.00
 
-set statusline=%f\ %m\ %r
+
+"if janus#is_plugin_enabled('fugitive')  
+  "set statusline+=%{fugitive#statusline()}  
+"endif
+
+if janus#is_plugin_enabled('syntastic')
+  set statusline+=%#warningmsg#
+  set statusline+=%{SyntasticStatuslineFlag()}
+  set statusline+=%*
+endif
+
+"set statusline=%f\ %m\ %r
 
 " Customize Jellybeans
 set fillchars=stl:\ ,stlnc:\ ,vert:\|,fold:-,diff:-
@@ -37,9 +48,10 @@ endif
 " Force TList to show up where you want
 let Tlist_Use_Right_Window = 1
 
-" Add Syntastic stuff to status line
-if janus#is_plugin_enabled('syntastic')
-  set statusline+=%#warningmsg#
-  set statusline+=%{SyntasticStatuslineFlag()}
-  set statusline+=%*
-endif
+" Ensure that NerdTREE bookmarks stay at the top
+let NERDTreeShowBookmarks = 1
+
+" Visual bell
+set vb
+
+
