@@ -1,2 +1,2 @@
-"Seems to fix performance issues
-call janus#disable_plugin('css-color')
+" Arduino -- ensure syntax Janus plugin lacks this
+au BufRead,BufNewFile *.ino,*.arduino set filetype=arduino
