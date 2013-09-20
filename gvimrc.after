@@ -1,4 +1,4 @@
-color jellybeans
+color jellybeans+
 set guifont=Menlo:h14.00
 
 
@@ -12,13 +12,6 @@ if janus#is_plugin_enabled('syntastic')
   set statusline+=%*
 endif
 
-"set statusline=%f\ %m\ %r
-
-" Customize Jellybeans
-set fillchars=stl:\ ,stlnc:\ ,vert:\|,fold:-,diff:-
-hi StatusLine guibg=#C4C0C0 guifg=#000000
-hi VertSplit guibg=#949292
-hi StatusLineNC guibg=#949292 guifg=#333333
 
 " ---- ConqueTerm ----
 " wrapper function

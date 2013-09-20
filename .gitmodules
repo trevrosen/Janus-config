@@ -1,12 +1,20 @@
 [submodule "vim-autoclose"]
 	path = vim-autoclose
 	url = git://github.com/Townk/vim-autoclose.git
+  ignore=dirty
 [submodule "conque-term"]
 	path = conque-term
 	url = git://github.com/rosenfeld/conque-term.git
+  ignore=dirty
 [submodule "AutoClose"]
 	path = AutoClose
 	url = https://github.com/vim-scripts/AutoClose
+  ignore=dirty
 [submodule "Align"]
 	path = Align
 	url = https://github.com/vim-scripts/Align.git
+  ignore=dirty
+[submodule "vim-airline"]
+	path = vim-airline
+	url = https://github.com/bling/vim-airline.git
+  ignore=dirty
