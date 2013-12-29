@@ -18,3 +18,6 @@
 	path = vim-airline
 	url = https://github.com/bling/vim-airline.git
   ignore=dirty
+[submodule "vim-gocode"]
+	path = vim-gocode
+	url = git@github.com:Blackrush/vim-gocode.git
