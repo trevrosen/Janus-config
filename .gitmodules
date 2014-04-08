@@ -21,3 +21,9 @@
 [submodule "vim-gocode"]
 	path = vim-gocode
 	url = git@github.com:Blackrush/vim-gocode.git
+[submodule "vim-go"]
+	path = vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "YouCompleteMe"]
+	path = YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
