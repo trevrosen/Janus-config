@@ -75,3 +75,6 @@ let g:tagbar_type_go = {
     \ 'ctagsbin'  : 'gotags',
     \ 'ctagsargs' : '-sort -silent'
 \ }
+
+" Adjust display of indentation when writing Go
+autocmd Filetype go set noet ts=2 sw=2 sts=2
