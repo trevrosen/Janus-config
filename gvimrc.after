@@ -2,9 +2,10 @@ color jellybeans+
 set guifont=Menlo:h14.00
 
 
-"if janus#is_plugin_enabled('fugitive')  
-  "set statusline+=%{fugitive#statusline()}  
-"endif
+" --- Go ---
+" fix imports and format on save
+let g:go_fmt_command = "goimports"
+
 
 if janus#is_plugin_enabled('syntastic')
   set statusline+=%#warningmsg#
