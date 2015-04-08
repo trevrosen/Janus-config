@@ -26,4 +26,4 @@
 	url = https://github.com/fatih/vim-go.git
 [submodule "YouCompleteMe"]
 	path = YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
+	url = git@github.com:Valloric/YouCompleteMe.git
