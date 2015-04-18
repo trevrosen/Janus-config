@@ -13,6 +13,9 @@ if janus#is_plugin_enabled('syntastic')
   set statusline+=%*
 endif
 
+" Rebind snippet completion to Ctrl-j
+imap <C-J> <esc>a<Plug>snipMateNextOrTrigger
+
 
 " ---- ConqueTerm ----
 " wrapper function
