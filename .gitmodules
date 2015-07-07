@@ -27,3 +27,6 @@
 [submodule "YouCompleteMe"]
 	path = YouCompleteMe
 	url = git@github.com:Valloric/YouCompleteMe.git
+[submodule "vim-hybrid-material"]
+	path = vim-hybrid-material
+	url = https://github.com/kristijanhusak/vim-hybrid-material
