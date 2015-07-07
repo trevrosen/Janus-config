@@ -1,3 +1,4 @@
 " Arduino -- ensure syntax Janus plugin lacks this
+
 au BufRead,BufNewFile *.ino set filetype=arduino
 au BufRead,BufNewFile *.pde set filetype=arduino

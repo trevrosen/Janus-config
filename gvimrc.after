@@ -6,6 +6,15 @@ set guifont=Menlo:h14.00
 " fix imports and format on save
 let g:go_fmt_command = "goimports"
 
+" Turn on nice highlighting for all the things
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+
+
+imap <C-j> <esc>a<Plug>snipMateNextOrTrigger
 
 if janus#is_plugin_enabled('syntastic')
   set statusline+=%#warningmsg#
@@ -19,13 +28,13 @@ imap <C-J> <esc>a<Plug>snipMateNextOrTrigger
 
 " ---- ConqueTerm ----
 " wrapper function
-function StartTerm()
+function MahStartTerm()
   execute 'ConqueTerm /bin/bash --login'
   setlocal listchars=tab:\ \
 endfunction
 
 " key binding
-map <D-e> :call StartTerm()<CR>
+map <D-e> :call MahStartTerm()<CR>
 
 
 " Softwrap text
@@ -82,3 +91,4 @@ let g:tagbar_type_go = {
 
 " Adjust display of indentation when writing Go
 autocmd Filetype go set noet ts=2 sw=2 sts=2
+
