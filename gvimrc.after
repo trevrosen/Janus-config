@@ -17,6 +17,7 @@ let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 
 
+" Trigger Snipmate with Ctrl-J
 imap <C-j> <esc>a<Plug>snipMateNextOrTrigger
 
 if janus#is_plugin_enabled('syntastic')
