@@ -118,3 +118,5 @@ let g:tagbar_type_go = {
 " Adjust display of indentation when writing Go
 autocmd Filetype go set noet ts=2 sw=2 sts=2
 
+" Set Ruby indentation
+autocmd Filetype ruby setlocal ts=2 sts=2 sw=2 expandtab
