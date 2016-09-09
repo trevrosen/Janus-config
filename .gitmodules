@@ -30,3 +30,6 @@
 [submodule "vim-hybrid-material"]
 	path = vim-hybrid-material
 	url = https://github.com/kristijanhusak/vim-hybrid-material
+[submodule "vim-ginkgo"]
+	path = vim-ginkgo
+	url = https://github.com/gevans/vim-ginkgo
