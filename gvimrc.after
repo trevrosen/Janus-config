@@ -121,3 +121,6 @@ autocmd Filetype go set noet ts=2 sw=2 sts=2
 
 " Set Ruby indentation
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2 expandtab
+
+" SilverSearcher instead of Ack
+let g:ackprg = 'ag --nogroup --nocolor --column'
