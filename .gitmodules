@@ -33,3 +33,6 @@
 [submodule "vim-ginkgo"]
 	path = vim-ginkgo
 	url = https://github.com/gevans/vim-ginkgo
+[submodule "snipmate-mocha"]
+	path = snipmate-mocha
+	url = git@github.com:mmozuras/snipmate-mocha.git
