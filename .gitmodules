@@ -36,3 +36,9 @@
 [submodule "snipmate-mocha"]
 	path = snipmate-mocha
 	url = git@github.com:mmozuras/snipmate-mocha.git
+[submodule "vim-color-spring-night"]
+	path = vim-color-spring-night
+	url = git@github.com:rhysd/vim-color-spring-night.git
+[submodule "vim-hybrid"]
+	path = vim-hybrid
+	url = git@github.com:w0ng/vim-hybrid.git

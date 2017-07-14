@@ -1,7 +1,9 @@
 " Colors got to be right
 colorscheme hybrid_reverse
 set guifont=Menlo:h12.00
+" Quickfix line should be a humane color
 hi QuickfixLine guibg=CadetBlue guifg=PaleGoldenrod
+" brighter line numbers
 hi LineNr guifg=#a0a0a0
 
 " Alternate escape sequence
@@ -10,8 +12,6 @@ imap jk <Esc>
 " Map leader to ','
 let mapleader = ","
 
-" brighter line numbers
-highlight LineNr guifg=#a0a0a0
 
 " --- Go ---
 " fix imports and format on save
