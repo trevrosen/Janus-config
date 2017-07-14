@@ -1,8 +1,14 @@
+" Colors got to be right
 colorscheme hybrid_reverse
 set guifont=Menlo:h12.00
+hi QuickfixLine guibg=CadetBlue guifg=PaleGoldenrod
+hi LineNr guifg=#a0a0a0
 
 " Alternate escape sequence
-:imap jk <Esc>
+imap jk <Esc>
+"
+" Map leader to ','
+let mapleader = ","
 
 " brighter line numbers
 highlight LineNr guifg=#a0a0a0
@@ -55,7 +61,7 @@ endif
 " ---- ConqueTerm ----
 " wrapper function
 function MahStartTerm()
-  execute 'ConqueTerm /bin/bash --login'
+  execute 'ConqueTerm /bin/zsh --login'
   setlocal listchars=tab:\ \
 endfunction
 
@@ -75,6 +81,11 @@ endif
 if janus#is_plugin_enabled('ctrlp')
  map <leader>fb :CtrlPBuffer<CR>
  set wildignore+=*/vendor/*
+endif
+
+" Don't conflict with vim-go go-build default
+if janus#is_plugin_enabled('buffergator')
+ map <leader>f :BuffergatorToggle<CR>
 endif
 
 
