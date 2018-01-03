@@ -135,3 +135,6 @@ autocmd Filetype ruby setlocal ts=2 sts=2 sw=2 expandtab
 
 " SilverSearcher instead of Ack
 let g:ackprg = 'ag --nogroup --nocolor --column'
+
+" Always show hidden in NERDTree
+let g:NERDTreeShowHidden=1

@@ -42,3 +42,6 @@
 [submodule "vim-hybrid"]
 	path = vim-hybrid
 	url = git@github.com:w0ng/vim-hybrid.git
+[submodule "vim-rhubarb"]
+	path = vim-rhubarb
+	url = https://github.com/tpope/vim-rhubarb.git
