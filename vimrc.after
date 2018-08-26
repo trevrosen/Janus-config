@@ -1,1 +1,19 @@
-colorscheme hybrid_reverse
+colorscheme hybrid_material
+
+" Alternate escape sequence
+imap jk <Esc>
+
+" Quickfix line should be a humane color
+hi QuickfixLine guibg=CadetBlue guifg=PaleGoldenrod
+"
+" Trigger Snipmate with Ctrl-J
+imap <C-j> <esc>a<Plug>snipMateNextOrTrigger
+
+" Adjust display of indentation when writing Go
+autocmd Filetype go set noet ts=2 sw=2 sts=2
+
+" Set Ruby indentation
+autocmd Filetype ruby setlocal ts=2 sts=2 sw=2 expandtab
+
+" SilverSearcher instead of Ack
+let g:ackprg = 'ag --nogroup --nocolor --column'
